@@ -112,6 +112,7 @@
     <Compile Include="Compiler\StatementProcessors\SharpStatementProcessorFixture.cs" />
     <Compile Include="Engine\Config\ProgrammaticConfigTestFixture.cs" />
     <Compile Include="Engine\ViewEngineTestCase.cs" />
+    <Compile Include="RenderingTests\RenderMailMessageTests.cs" />
     <Compile Include="Utilities\ViewPropertiesDictionaryTests.cs" />
     <Compile Include="RenderingTests\LayoutExtensionOptions.cs" />
     <Compile Include="RenderingTests\IntegrationViewTestFixture.cs" />

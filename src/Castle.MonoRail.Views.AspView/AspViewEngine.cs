@@ -138,7 +138,7 @@ namespace Castle.MonoRail.Views.AspView
 				controllerContext.PropertyBag[pair.Key] = pair.Value;
 			}
 
-			Process(templateName, output, null, null, controllerContext);
+			Process(templateName, output, EngineContextLocator.Instance.LocateCurrentContext(), null, controllerContext);
 		}
 
 		public override void Process(string templateName, TextWriter output, IEngineContext context, IController controller, IControllerContext controllerContext)
